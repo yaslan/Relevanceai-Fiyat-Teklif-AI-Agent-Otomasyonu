@@ -12,16 +12,11 @@ Bu repo, işletmelerin teklif oluşturma ve yönetim süreçlerini yapay zeka il
 🎯 Daha Yüksek Doğruluk: İnsan hatalarını ortadan kaldırarak mükemmel teklifler oluşturun
 💼 Stratejik Odaklanma: Satış ekibinizin değerli zamanını ilişki geliştirmeye ayırmasını sağlayın
 🌐 Ölçeklenebilirlik: Artan iş yükünü ek personel almadan yönetin
+<br>
 🛠️ Kurulum
-bash
-
-
-# Repo'yu klonlayın
-git clone https://github.com/username/relevanceai-fiyat-teklif-agent.git
-
 #  RelevanceAI Fiyat Teklif AI Agent Template:
 Lütfen "aigent1.rai" dosyasını indirin ve  "relevanceai.com" adresine import edin. Dosyayı Aşaıdaki linkden indirebilirsiniz. 
-*https://drive.google.com/file/d/1wB57ggnQrlMtwDJ3kGXsi36wuvq7toaz/view?usp=sharing
+*https://drive.google.com/file/d/1wB57ggnQrlMtwDJ3kGXsi36wuvq7toaz/view?usp=sharing<br>
 İmport işlemi tamamlandıkdan sonra Yeni Ajanınınz Hesabınızda görünecektir.
 * Google Doküman Template:
 https://docs.google.com/document/d/1kDg-hdhsFNsdA_BsVuHpjmgsIbzpAuTgl371PmjGlWs/edit?usp=sharing
@@ -41,7 +36,7 @@ Yapay zeka araçlarını ve entegrasyonlarını kullanarak toplantı transkriptl
   -Fatura oluşturma ve sonlandırma<br>
   -Webhook yanıt işleme<br>
 ![image](https://github.com/yaslan/Relevanceai-Fiyat-Teklif-AI-Agent-Otomasyonu/blob/main/stripe-flow.png)
-3. **Make.cam İş Akışı<br>
+3. **<a href="https://www.make.com/en">Make.com</a> İş Akışı<br>
 *Tam entegrasyon akışı gösteriliyor:<br>
   - İlk webhook tetikleyicisi<br>
   - Yönlendirici yapılandırması<br>
@@ -50,35 +45,8 @@ Yapay zeka araçlarını ve entegrasyonlarını kullanarak toplantı transkriptl
   - Araçlar ve metin işleme<br>
   - Son İlgililik AI mesajlaşması<br>
 
-  
-# Bağımlılıkları yükleyin<br>
-cd relevanceai-fiyat-teklif-agent
-npm install
-
-# Yapılandırma dosyasını oluşturun
-cp .env.example .env
-🔧 Yapılandırma
-.env dosyasını açın ve API anahtarınızı ve diğer yapılandırma ayarlarını girin:
-javascript
-
-
-API_KEY=your_api_key_here
-ORG_NAME=your_organization_name
-TEMPLATE_DIR=./templates
-🚀 Kullanım
-javascript
-
-
-// AI Ajanını başlatın
-const teklifAjani = new RelevanceAIAgent({
-  musteriID: "12345",
-  urunKategorisi: "yazilim",
-  teklifTipi: "kurumsal"
-});
 
 // Teklif oluşturun
-const teklifSonucu = await teklifAjani.teklifOlustur();
-console.log(`Teklif Hazır: ${teklifSonucu.dosyaURL}`);
 📊 Performans Metrikleri
 📉 Teklif hazırlama süresi: %85 azalma
 📈 Müşteri yanıt oranı: %40 artış
