@@ -55,7 +55,7 @@ console.log(`Teklif Hazır: ${teklifSonucu.dosyaURL}`);
 Projemize katkıda bulunmak ister misiniz? Harika! Pull request'lerinizi bekliyoruz. Büyük değişiklikler için lütfen önce bir issue açarak neyi değiştirmek istediğinizi tartışalım.
 📬 İletişim
 Sorularınız mı var? Bize ulaşın:
-Email: support@relevanceai.com
-Twitter: @RelevanceAI
+Email: support@aiagent.com.tr
+Twitter: @aigentcomtr
 🌟 İşletmenizin Potansiyelini Keşfedin!
 RelevanceAI Fiyat Teklif AI Agent Otomasyonu ile rekabet avantajı elde edin ve müşteri memnuniyetini artırın. Hemen entegre edin, farkı görün! 💯
