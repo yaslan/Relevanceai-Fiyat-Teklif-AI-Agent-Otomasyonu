@@ -34,15 +34,24 @@ Yapay zeka araçlarını ve entegrasyonlarını kullanarak toplantı transkriptl
    * Araç Yapılandırma Arayüzü
    * Mevcut Şablonları ve Araçları Görüntüler
   ![image](https://github.com/user-attachments/assets/b38cb24a-45e9-4f1e-81e3-658bb54ba711)
-2.Stripe Entegrasyon Akışı
-  -Webhook başlatma
-  -Müşteri oluşturma
-  -Fatura öğesi oluşturma
-  -Fatura oluşturma ve sonlandırma
-  -Webhook yanıt işleme
+2.Stripe Entegrasyon Akışı<br>
+  -Webhook başlatma<br>
+  -Müşteri oluşturma<br>
+  -Fatura öğesi oluşturma<br>
+  -Fatura oluşturma ve sonlandırma<br>
+  -Webhook yanıt işleme<br>
 ![image](https://github.com/yaslan/Relevanceai-Fiyat-Teklif-AI-Agent-Otomasyonu/blob/main/stripe-flow.png)
-3. 
-# Bağımlılıkları yükleyin
+3. **Make.cam İş Akışı<br>
+*Tam entegrasyon akışı gösteriliyor:<br>
+  - İlk webhook tetikleyicisi<br>
+  - Yönlendirici yapılandırması<br>
+  - FirefliesAI entegrasyonu<br>
+  - Google Dokümanlar bağlantısı<br>
+  - Araçlar ve metin işleme<br>
+  - Son İlgililik AI mesajlaşması<br>
+
+  
+# Bağımlılıkları yükleyin<br>
 cd relevanceai-fiyat-teklif-agent
 npm install
 
