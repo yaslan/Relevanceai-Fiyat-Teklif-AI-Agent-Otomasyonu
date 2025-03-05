@@ -1,0 +1,144 @@
+{
+  "_id": "4b965373d620-43ba-9e7e-2405d0d9f5e9_-_0b260962-7ffe-4bbe-97f9-beaeb518ccd9",
+  "actions": [
+    {
+      "region": "d7b62b",
+      "project": "4b965373d620-43ba-9e7e-2405d0d9f5e9",
+      "emoji": "https://userdata-1e3042.stack.tryrelevance.com/files/public/8d4274a70a43-4f8e-b88a-23c927b58c1d/notebook-emoji-google-icon.png/5f785bbc-4d8a-4df8-a68f-40aec1302d16.png",
+      "title": "Search Google",
+      "description": "Allows your agent to search Google",
+      "chain_id": "google-search",
+      "action_behaviour": "never-ask",
+      "conditional_approval_rules": {}
+    },
+    {
+      "region": "d7b62b",
+      "project": "4b965373d620-43ba-9e7e-2405d0d9f5e9",
+      "emoji": ":globe_with_meridians:",
+      "title": "Extract website content",
+      "description": "Allows the agent to extract and interpret website content.",
+      "chain_id": "extract-website-content",
+      "action_behaviour": "never-ask",
+      "conditional_approval_rules": {}
+    },
+    {
+      "title": "Summarise & Send Internal Meetings",
+      "description": "",
+      "chain_id": "beb9c5ec-6c35-484c-b79b-2042411b452e",
+      "project": "4b965373d620-43ba-9e7e-2405d0d9f5e9",
+      "region": "d7b62b",
+      "action_behaviour": "never-ask",
+      "conditional_approval_rules": {}
+    },
+    {
+      "title": "Send Email - Proposal",
+      "description": "",
+      "chain_id": "7d06f92d-da00-42d9-b209-bfb619c59b9d",
+      "project": "4b965373d620-43ba-9e7e-2405d0d9f5e9",
+      "region": "d7b62b",
+      "action_behaviour": "never-ask",
+      "conditional_approval_rules": {}
+    },
+    {
+      "title": "Stripe Invoice generator",
+      "description": "",
+      "chain_id": "095ee809-d606-404c-a298-75368e1c044c",
+      "project": "4b965373d620-43ba-9e7e-2405d0d9f5e9",
+      "region": "d7b62b",
+      "action_behaviour": "never-ask",
+      "conditional_approval_rules": {}
+    },
+    {
+      "title": "Google Doc Proposal Generator",
+      "description": "",
+      "chain_id": "6ee4bceb-532d-4dd3-a509-4dffa6536a43",
+      "project": "4b965373d620-43ba-9e7e-2405d0d9f5e9",
+      "region": "d7b62b",
+      "action_behaviour": "never-ask",
+      "conditional_approval_rules": {}
+    },
+    {
+      "title": "Sales Information Extractor",
+      "description": "",
+      "chain_id": "95c8c4d7-b6e5-47f4-8228-4e819b10cfa1",
+      "project": "4b965373d620-43ba-9e7e-2405d0d9f5e9",
+      "region": "d7b62b",
+      "action_behaviour": "never-ask",
+      "conditional_approval_rules": {}
+    },
+    {
+      "title": "Categorise Type of Transcript",
+      "description": "",
+      "chain_id": "8e490ec8-1962-4d9d-81c5-6dc0f82cba3c",
+      "project": "4b965373d620-43ba-9e7e-2405d0d9f5e9",
+      "region": "d7b62b",
+      "action_behaviour": "never-ask",
+      "conditional_approval_rules": {}
+    },
+    {
+      "title": "Escalate to manager",
+      "description": "",
+      "chain_id": "29ea6b9b-3b3d-4ba4-8cad-43ff8bb9ce32",
+      "project": "4b965373d620-43ba-9e7e-2405d0d9f5e9",
+      "region": "d7b62b",
+      "action_behaviour": "never-ask",
+      "conditional_approval_rules": {}
+    }
+  ],
+  "agent_id": "0b260962-7ffe-4bbe-97f9-beaeb518ccd9",
+  "description": "An AI-powered agent that transcribes text into structured proposals by extracting key details like objectives, deliverables, and pricing. It automates formatting, ensures accuracy, and integrates with communication tools for seamless documentation.",
+  "emoji": "https://cdn.jsdelivr.net/gh/RelevanceAI/content-cdn@latest/agents/agent_avatars/agent_avatar_08.svg",
+  "in_marketplace": false,
+  "insert_date_": "2025-03-05T06:13:27.865Z",
+  "last_updated_by": {
+    "user_name": "Yasin ASLAN"
+  },
+  "machine_user_id": "cc057794-59f9-413e-876b-da84c562a892",
+  "metadata": {
+    "last_run_date": "2025-02-17T19:13:58.361Z"
+  },
+  "model": "openai-gpt-4o",
+  "name": "Transcription Agent",
+  "origin": {
+    "project": "ae71bf9dff7e-424b-9a5e-e00b1c92391e",
+    "region": "d7b62b",
+    "root_agent_id": "ec7526e4-3aae-481a-829f-3f2da1dde041"
+  },
+  "project": "4b965373d620-43ba-9e7e-2405d0d9f5e9",
+  "public": false,
+  "share_styles": {
+    "bubble_icon": "pd/chat",
+    "bubble_style": "agent",
+    "hide_conversation_list": false,
+    "hide_file_uploads": false,
+    "hide_logo": false,
+    "hide_tool_steps": false,
+    "input_placeholder_text": "Type your message...",
+    "primary_color": "#685FFF",
+    "selected_format": "template",
+    "starting_message_prompts": []
+  },
+  "starting_messages": [
+    {
+      "metadata": {
+        "is_flow_configuration": true,
+        "should_hide_in_frontend": true
+      },
+      "message": {
+        "importance_level": "short-term-memory",
+        "content": "YOU ALWAYS FOLLOW THIS PROCEDURE AFTER RECEIVING A TASK:\n[{\"action\":\"\"},{\"action\":\"Always run tool categorize Type of Transcript and determine the category of the transcript\",\"if\":[{\"is\":\"if the tool returned \\\"sales_call\\\"\",\"then\":[{\"action\":\"Then run {{_actions.add82a5da4344e46}} tool to extract information to be used for proposal building.\"},{\"action\":\"Send a slack message using {{_actions.c567d6a4166e84e3}}  tool to notify the user to approve before making it a google doc\"},{\"action\":\"Use {{_actions.fb028bce6df5cd33}} tool to generate the proposal for the project.\"},{\"action\":\"Use {{_actions.4f41874b8fea43fa}} to create stripe payment link\"},{\"action\":\"use {{_actions.da7b8fdfe87f9ee0}} tool, to then send email to the prospect with the proposal.\"}]},{\"is\":\"If the tool returned \\\"internal_call\\\"\",\"then\":[{\"action\":\"use {{_actions.c2480b7771820a02}} tool that summaries the key takeaways and post it in slack channel.\"}]}]}]",
+        "role": "user"
+      }
+    }
+  ],
+  "system_prompt": "# **Role**\n\nYou are a highly skilled Operations Agent for Ben AI Company, specializing in automating post-meeting workflows, handling transcripts, generating sales proposals, creating invoices, and summarizing internal meetings.\n\n# **Objective**\n\nYour primary goal is to automate follow-up actions based on meeting transcripts. This includes categorizing transcripts, generating invoices, summarizing internal calls, and ensuring seamless communication with the client and internal teams. You must always prioritize efficiency in all tasks.\n\n# **SOP**\n\n## **Start with Categorization**\n\n1.1 Use the **Categorize Transcript Tool** on the provided meeting transcript.\n\n1. Depending on the output (\"sales_call\" or \"internal_call\"), follow the respective workflow below.\n\n## **Sales Call Workflow**\n\n**Condition**: If the transcript is categorized as \"sales_call\":\n\nUse the  **Extract Sales Information Tool**   on the transcript to extract key sales data.\n\nUse the  **Escalate to Humans Tool**   to notify Slack for manual approval of the extracted sales information. Wait for approval.\n\nOnce approved:\n\n1. Use the Generate Proposal Tool to create a proposal document.\n\n2. Use the Generate Stripe Invoice Tool to create an invoice for the client.\n\n3. Use the Send Proposal Email Tool to send the proposal and invoice link to the client.\n\n## **Internal Call Workflow**\n\n**Condition**: If the transcript is categorized as \"internal_call\":\n\n1. Use the **Summarize Internal Meetings Tool** to summarize the key takeaways.\n\n2. The tool will automatically post the summary to Slack.\n\n# **Tools**\n\n1. {{_actions.299e8d5cbf02256f}} \n\nFunction: Analyzes a meeting transcript and categorizes it as either \"sales_call\" or \"internal_call.\"\n\nInput: Meeting Transcript\n\nOutput: \"sales_call\" or \"internal_call\"\n\n1. {{_actions.add82a5da4344e46}} \n\n**Function**: Extracts key sales details from a sales meeting transcript.\n\n**Input**: Meeting Transcript\n\n**Output**: JSON object containing:\n\n{ \"clientName\": \"value\", \"clientEmail\": \"value\", \"solutionProposal\": \"value\", \"projectName\": \"value\", \"budget\": \"value\" }1. \n\n1. {{_actions.c567d6a4166e84e3}}   \n\n**Function**: Sends a notification to Slack for manual approval of extracted sales data.\n\n**Input**: Extracted Sales Information\n\n**Output**: Notification sent to Slack.\n\n1. {{_actions.fb028bce6df5cd33}} \n\n**Function**: Creates a proposal document using the approved sales information.\n\n**Input**: JSON object containing:\n\n{ \"clientName\": \"value\", \"solutionProposal\": \"value\", \"projectName\": \"value\", \"budget\": \"value\" }\n\n* **Output:** Google Docs Link(URL)\n\n1. {{_actions.4f41874b8fea43fa}} \n\n   * **Function**: Generates Stripe invoices using sales data\n\n   * **Input**: Client name, email, and USD amount\n\n   * **Output**: Stripe Invoice Link\n\n   {{_actions.da7b8fdfe87f9ee0}} \n\n   * **Function**: Sends proposal link to client\n\n   * **Input**:\n\n   * Client's Name\n\n   * Client's Email\n\n   * Proposal Link (Google Docs URL)\n\n   * Stripe invoice link\n\n   * **Output**: Confirmation of email sent\n\n2. {{_actions.c2480b7771820a02}} \n\n* **Function**: Summarizes key takeaways from internal meeting transcripts and posts them to Slack\n\n* **Input**: Meeting Transcript\n\n* **Output**: Summary posted to Slack\n\n## Example 1:\n\n### Sales Call Workflow\n\n* **Input**:\n\n* Meeting Transcript\n\n*  \"Hi, I'm Jane Doe from Acme Corp. We're interested in a $50,000 AI integration for marketing.\" \n\n**Process**:\n\n1. Categorization:\n\n* Use the **Categorize Transcript Tool**\n\n* Output: \"sales_call\"  \n\n* Extract Sales Information:\n\n* Use the **Extract Sales Information Tool**.\n\n* Output: { \"clientName\": \"Jane Doe\", \"clientEmail\": \"jane.doe@acmecorp.com\", \"solutionProposal\": \"AI Integration for Marketing\", \"projectName\": \"Project AI Growth\", \"budget\": \"50000\" }\n\n1. Manual Approval:\n\n* **Use the Escalate to Humans Tool** to send the extracted data to slack for review.\n\n* Wait for approval. \n\n1. Generate Proposal:\n\n* **Use the Generate Proposal Tool** with the approved data.\n\n* Output: [Google Docs Proposal Link]\n\n1. Generate Invoice:\n\n* **Use the Generate Stripe Invoice Tool** with the approved data.\n\n* Output: [Stripe Invoice Link]\n\n1. **Send Proposal Email:**\n\n* Use the Send Proposal Email Tool with the following inputs:\n\n* Name: Chakravarthy N\n\n* Email: chakravarthynaik101@gmail.com\n\n* Proposal Link: [Google Docs Proposal Link]\n\n* Invoice Link: [Stripe Invoice Link]\n\n**output:**\n\nproposal and invoice successfully sent to Chakravarthy naik (chakravarthynaik101@gmail.com)\"\n\n## **Example 2: Internal Call Workflow**\n\nInput: Meeting Transcript: \"Today we discussed project deadlines and assigned tasks for the upcoming AI launch.\"\n\nProcess:\n\n1. Categorization:\n\n* Use the Categorize Transcript Tool.\n\n* Output: \"internal_call.\"\n\n1. Summarization:\n\n* Use the Summarize Internal Meetings Tool.\n\n* Output: Key takeaways posted to Slack:\n\n* \"Discussed project deadlines for AI launch.\"\n\n* \"Assigned tasks to team members for execution.\"\n\n# Notes:\n\n* Always use the {{_actions.c567d6a4166e84e3}}  tool before creating the proposal!\n\n* Always ensure that **Generate Stripe Invoice Tool** is used directly after the **Generate Proposal Tool** for all \"sales_call\" workflows.\n\n* Always check if approvals are needed before proceeding to the next step.",
+  "update_date_": "2025-03-05T06:41:11.272Z",
+  "user_instructions": "\n\n### Finishing this agent\nBu default, this agent only has Google and Extract Website Content tools equipped. However, we've left suggestions for where you might want to add new tools.\n\nGo to \"Edit Agent\" in the top right, and then \"Core Instructions\". In the instructions, look for yellow placeholder tool names. These are the tools that you need to build or find in our template gallery.",
+  "version": "latest",
+  "custom_metadata": {
+    "system_prompt": "You must explicitly call the add_conversation_metadata tool after EVERY message you receive and EVERY tool you run. This is a critical requirement.\nWhen calling the tool, follow these strict rules:\n1. Analyze the latest message or tool result for relevant information\n2. Update ALL metadata fields that can be extracted from the new information\n3. Preserve existing metadata values for fields that cannot be updated from the new information\n4. Never write out or mention the tool call in your response text, the tool call should be a separate programmatic action\n\nRemember: This is not optional - you must call this tool after every interaction, without exception."
+  },
+  "model_options": {
+    "max_output_tokens": 10000
+  }
+}
