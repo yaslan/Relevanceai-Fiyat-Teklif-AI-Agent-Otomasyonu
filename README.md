@@ -19,6 +19,9 @@ bash
 # Repo'yu klonlayın
 git clone https://github.com/username/relevanceai-fiyat-teklif-agent.git
 
+#  RelevanceAI Fiyat Teklif AI Agent Template:
+Lütfen "aigent1.rai" dosyasını indirin ve  "relevanceai.com" adresine import edin. 
+İmport işlemi tamamlandıkdan sonra Yeni Ajanınınz Hesabınızda görünecektir.
 # Bağımlılıkları yükleyin
 cd relevanceai-fiyat-teklif-agent
 npm install
