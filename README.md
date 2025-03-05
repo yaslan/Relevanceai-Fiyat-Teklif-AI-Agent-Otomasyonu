@@ -20,8 +20,28 @@ bash
 git clone https://github.com/username/relevanceai-fiyat-teklif-agent.git
 
 #  RelevanceAI Fiyat Teklif AI Agent Template:
-Lütfen "aigent1.rai" dosyasını indirin ve  "relevanceai.com" adresine import edin. 
+Lütfen "aigent1.rai" dosyasını indirin ve  "relevanceai.com" adresine import edin. Dosyayı Aşaıdaki linkden indirebilirsiniz. 
+*https://drive.google.com/file/d/1wB57ggnQrlMtwDJ3kGXsi36wuvq7toaz/view?usp=sharing
 İmport işlemi tamamlandıkdan sonra Yeni Ajanınınz Hesabınızda görünecektir.
+* Google Doküman Template:
+https://docs.google.com/document/d/1kDg-hdhsFNsdA_BsVuHpjmgsIbzpAuTgl371PmjGlWs/edit?usp=sharing
+
+#Sisteme Genel Bakış
+Yapay zeka araçlarını ve entegrasyonlarını kullanarak toplantı transkriptlerini profesyonel tekliflere ve faturalara dönüştüren otomatik bir iş akışı.
+
+#<strong>İş Akış Görselleri</strong>
+1. Relevance AI Dashboard
+   * Araç Yapılandırma Arayüzü
+   * Mevcut Şablonları ve Araçları Görüntüler
+  ![image](https://github.com/user-attachments/assets/b38cb24a-45e9-4f1e-81e3-658bb54ba711)
+2.Stripe Entegrasyon Akışı
+  -Webhook başlatma
+  -Müşteri oluşturma
+  -Fatura öğesi oluşturma
+  -Fatura oluşturma ve sonlandırma
+  -Webhook yanıt işleme
+![image](https://github.com/yaslan/Relevanceai-Fiyat-Teklif-AI-Agent-Otomasyonu/blob/main/stripe-flow.png)
+3. 
 # Bağımlılıkları yükleyin
 cd relevanceai-fiyat-teklif-agent
 npm install
